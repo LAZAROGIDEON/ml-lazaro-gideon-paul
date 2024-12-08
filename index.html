@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <title>MLBB</title>
+ <style>
+ 
+
+  body{
+    background-color:white;
+   
+  }
+
+    header{
+     
+      background-image: url('images/LOGO.jpg'); /* Path to your image */
+      background-size: cover;
+      background-position: center;
+      min-height:1000px;
+      margin: 0px;
+    
+  
+    }
+
+    nav{
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .card{
+      position: relative;
+      z-index: 5
+    }
+
+    .card-reveal{
+      border: 2px solid white;
+    }
+
+    
+    .responsive-img {
+           
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            right: 0;          
+            object-fit: cover;
+        }
+    .ni{
+      margin: 0px;
+    }
+    .container{
+  
+      display: flex;             
+      justify-content: center;
+      position: relative;    
+      bottom: 55px;
+        
+    }
+    .textt{
+      font-size: 20px;
+     
+    }
+
+
+    .crads{
+      border: 3px solid rgb(255, 255, 255);
+      background-color: black;
+    }
+
+    .whit, .skyblu,.yello, .blac{
+     
+      height: 250px;
+      width: 250px;
+    }
+    .whit{
+    border: 3px solid rgb(255, 255, 255);
+    }
+
+    .skyblu{
+      border: 3px solid skyblue;
+    }
+
+    .yello{
+      border: 3px solid yellow;
+    }
+    .blac{
+      border: 3px solid black;
+    }
+
+
+    .tex{
+      font-size: 17px;
+    }
+
+    .fly{
+      height: 35px;
+      width: 35px;
+    }
+
+    .fly:hover{
+      height: 140px;
+      width: 140px;
+    }
+
+    .foot{
+      
+      padding: 40px;
+    }
+
+
+
+
+
+  @media (max-width: 700px)
+
+
+
+      {
+        
+        header{
+          min-height:500px;
+        }
+        .fly:hover{
+      height: 36px;
+      width: 36px;
+    }
+
+
+        .responsive-img {
+       
+          width: 100px;
+          height: 100px;
+         }
+        .texttt{ 
+          font-size: 20px;
+        }
+
+    .whit, .skyblu,.yello, .blac{
+     
+     height: 200px;
+     width: 200px;
+   }
+        .tex{
+      font-size: 12px;
+        }
+
+
+
+        
+    
+
+     
+      }
+      @media (max-width: 500px)
+        {
+          .responsive-img {
+         
+       width: 148px;
+       height: 148px;
+          }  
+      .responsive-text{
+        font: 10px;
+      }     
+
+    
+      .lay {
+      background-color: white;
+      color: black;
+      padding: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .lay a {
+      transition: color 0.3s ease;
+    }
+
+    .lay i {
+      color: inherit; /* Inherit color from li */
+      transition: color 0.3s ease;
+    }
+
+    /* Hover state for li */
+    .lay:hover {
+      background-color: #c62828; /* Green background on hover */
+      color: white; 
+    }
+
+    /* Hover state for a (link) */
+    .lay:hover a {
+      color: white; /* Link color on hover */
+    }
+      
+   }
+        
+</style>
+  </head>
+
+  <body>
+    <nav class="nav-wrapper blue darken-3"> 
+        <div class="container"></div>
+        <a href="#" class="brand-logo left black-text flow-text hide-on-med-and-down">MLBB: PROFESSIONAL LEAGUE S14</a>
+        <a href="#" class="brand-logo center black-text hide-on-large-only">MPL</a>
+         <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons hide-on-large-only">menu</i>
+         </a>
+          <ul class=" right hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons red-text darken-3 ">home</i></a></li>
+            <li><a href="#modal1" class="modal-trigger" ><i class="material-icons black-text">person</i></a></li>
+            <li><a href="community.html"><i class="material-icons black-text">information</i></a></li>
+         </ul>
+       
+    </nav>
+    
+
+    <ul class="sidenav" id="mobile-links">
+      <li> <P class=" grey darken-2 black-text"> MLBB: PROFESSIONAL LEAGUE</P> </li>
+      <li class="lay"><a href="index.html">
+              <i class=" material-icons red-text darken-3 ">home</i>
+        <span>HOME</span></a></li>
+      <li class="lay"><a href="#modal1" class="modal-trigger"><i class=" material-icons black-text">person</i>
+        <span>LOG-IN</span></a></li>
+      <li class="lay"><a href=" community.html"><i class=" material-icons black-text">information</i>
+      <span>ABOUT US</span></a></li>
+    </ul>
+    
+  
+<header class="row">
+
+  <img src="images/champions.jpg" alt="champions" class="responsive-img materialboxed" > 
+ </header> 
+
+
+ <div class="crads">
+  <h4>
+    <p class=" card-panel white black-text texttt">TOP-4: 1.FNOC, 2.AURORA, 3.FCAP 4.BLACKLIST </p>
+  </h4>
+<div class="row">
+  <div class="col s6 m6 l3 ">
+     <div class="card whit ">
+       <div class="card-image card-image waves-effect waves-block waves-light">
+    
+    <img class="activator" src="images/Onic.jpg" alt="champions" >  
+  </div>
+        
+      <div class="card-reveal black whit">
+        <span class="card-title white-text tex">Finatic Onic ph<i class="material-icons red-text  right">circle</i></span>
+      <p class="white-text tex">This team has shown strength and pride, worthy to become the champion 
+       
+      </p>
+
+      <p class="white-text tex">
+        members: Kelra, Kirk, Kingkong, Brusko, and SuperFrince. 
+      </p>
+
+      <a href="onic.html" class="white-text">VISIT  </a>
+    </div>
+      </div>
+         </div>
+     
+     
+   <div class="col s6 m6 l3">
+     <div class="card skyblu">
+       <div class="card-image">
+         <img class="activator" src="images/Rora.jpg" alt="champions" >  
+      </div>
+      
+    <div class="card-reveal skyblue">
+        <span class="card-title black-text tex">Aurora ESPORTS<i class="material-icons red-text  right">circle</i></span>
+    <p class="black-text tex"> A newly formed team that won the second place, It shows how competive they are.  
+      </p>
+   <p class="black-text tex">
+          members: Domeng, Edward, Demonkite, Renejay, and Yue. 
+   </p>
+      <a href="rora.html" class="black-text">VISIT </a>
+
+       </div>
+   </div>
+  </div>
+
+
+
+
+
+
+
+
+
+   <div class="col s6 m6 l3 ">
+     <div class="card yello">
+       <div class="card-image">
+         <img src="images/fcap.jpg" class="activator" alt="champions" >  
+       </div>
+
+
+    <div class="card-reveal green accent-4">
+      <span class="card-title black-text tex">Falcons apBREN<i class="material-icons right red-text ">circle</i></span>
+    
+      <p class="black-text tex"> they show skills and teamworks and did their best to give  best matches.
+    </p>
+      <p class="black-text tex">
+          members: SuperMarco, Flaptzy, KyleTzy, Owgwen, and Pheww. 
+      </p>
+    <a href="fcap.html" class="black-text">VISIT </a>
+
+     </div>
+   </div>
+   </div>
+     
+  <div class="col s6 m6 l3 ">
+       <div class="card blac ">
+         <div class="card-image">
+           <img src="images/blacklist.jpg" class="activator"  alt="champions" >  
+         </div>
+
+         
+    <div class="card-reveal  accent-4">
+      <span class="card-title black-text tex">BLACKLIST INTERNATIONAL</span><i class="material-icons right red-text ">circle</i></span>
+    
+      <p class="black-text tex"> 
+          Showing tenacity and courage to move forward, they manage to get the 4th place despite the odds.
+      </p>
+      <p class="black-text tex">
+          members: Oheb, Dlar, MpTheKing, Perkz, and Hadji. 
+      </p>
+      <a href="blist.html" class="black-text">VISIT </a>
+
+     </div>
+
+     </div>
+   </div>
+ 
+  </div>
+</div>
+
+    <h4>Final Standings (regular seaon)</h4>
+   
+    <table class=" row responsive-table centered stripped ">
+      <thead >
+        <tr class="grey darken-1">
+          
+          <th>TEAMS</th>
+          <th class="hide-on-med-and-down">LOGOS</th>
+          <th >MATCH WIN-LOSS</th>
+          <th >GAME WIN-LOSS</th>
+          <th>WIN RATE</th>
+          <th> Points </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="green accent-3">
+          
+          <td> Onic </td>
+          <td class="hide-on-med-and-down"><img class="fly"src="images/Onic.jpg" alt="champions"  ></td>
+          <td>13-1</td>
+          <td>33-8</td>
+          <td>80%</td>
+          <td>25</td>
+        </tr>
+        <tr class="green accent-3">
+          
+          <td> Aurora</td>
+          <td class="hide-on-med-and-down"><img class="fly" src="images/Rora.jpg" alt="champions" ></td>
+          <td>10-4</td>
+          <td>31-22</td>
+          <td>58%</td>
+          <td>16</td>
+        </tr>
+        <tr class="grey lighten-1">
+          
+          <td> FCAP </td>
+          <td class="hide-on-med-and-down"><img class="fly hide-on-med-and-down" src="images/fcap.jpg" alt="champions" ></td>
+          <td>9-5</td>
+          <td>28-21</td>
+          <td>57%</td>
+          <td>13</td>
+        </tr>
+        <tr class="grey lighten-1">
+          
+          <td> OMEGA </td>
+          <td class="hide-on-med-and-down"><img class="fly" src="images/omega.jpg" alt="champions" ></td>
+          <td>8-6</td>
+          <td>20-18</td>
+          <td>53%</td>
+          <td>10</td>
+        </tr>
+
+        <tr class="grey lighten-1">
+          
+          <td> TLPH  </td>
+          <td class="hide-on-med-and-down"><img class="fly" src="images/echo.jpg" alt="champions" ></td>
+          <td>7-7</td>
+          <td>19-18</td>
+          <td>51%</td>
+          <td>7</td>
+        </tr>
+
+        <tr class="grey lighten-1">
+          
+        <td> BLACKLIST </td>
+          <td class="hide-on-med-and-down"><img class="fly" src="images/blacklist.jpg" alt="champions" ></td>
+          <td>5-9</td>
+          <td>17-26</td>
+          <td>40%</td>
+          <td>1</td>
+        </tr>
+
+        <tr class="red">
+          
+          <td>RSG PH</td>
+          <td class="hide-on-med-and-down"><img class="fly" src="images/rsg.jpg" alt="champions" ></td>
+          <td>3-11</td>
+          <td>10-23</td>
+          <td>30%</td>
+          <td>-5</td>
+        </tr>
+
+        <tr class="red">
+          
+          <td> TNC </td>
+          <td class="hide-on-med-and-down"><img class="fly" src="images/tnc.jpg" alt="champions" ></td>
+          <td>0-14</td>
+          <td>6-28</td>
+          <td>18%</td>
+          <td>-14</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <script src="js/jquerrRy3.7.1.js"></script>
+
+    <script src="js/materialize.js"></script>
+ 
+  <script>
+    $(document).ready(function(){
+     $('.sidebar').sidenav();
+     $('.materialboxed').materialbox();
+     $('.card').cardReveal();
+    }); 
+ $(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
+$(document).ready(function(){
+      // Initialize the modal
+      $('.modal').modal();
+    });
+ $(document).ready(function(){
+    $('.datepicker').datepicker({
+        format: 'mm-dd-yyyy', 
+        yearRange: [1900, 2023],  
+        showClearBtn: true, 
+        defaultDate: new Date(), 
+        setDefaultDate: true,
+      });  });
+</script>
+
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h6>FILL IN THE BLANKS THEN PRESS ENTER</h6>
+
+    <div class="input-field">
+      <input type="text" id="text">
+      <label for="text">Your Name</label>
+
+
+
+    <form action="">
+      <div class="input-field">
+        <input type="email" id="emial">
+        <label for="emial">Your Email</label>
+      </div>
+
+      <div class="input-field">
+        <input type="password" id="password">
+        <label for="password">Your Password</label>
+      </div>
+
+      <div class="input-field">
+        <input type="text" id="text">
+        <label for="text">Reason for Joining</label>
+
+
+        <div class="input-field">
+          <input type="text" id="date" class="datepicker" name="date" required>
+          <label for="date">Date of Birth</label>
+        </div>
+        
+        
+        <button type="submit" class="btn red">Submit</button>
+      
+      </div>
+
+    
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat red">Close</a>
+  </div>
+</div>
+
+</form>
+
+</div>
+
+
+<footer class="foot  center red darken-4">
+  <h6><p>ALL RIGHTS RESERVED MPL 2024 </p></h6>
+</footer>
+  </body>
+</html>
+      
+
+
+
